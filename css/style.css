@@ -35,7 +35,7 @@ header{
 .carousel-item{
   text-align: center;
   height: 100vh;
-  padding-top: 12%;
+  padding-top: 50%;
 }
 
 @media (max-width: 400px){
