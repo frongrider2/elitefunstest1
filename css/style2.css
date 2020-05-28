@@ -1,0 +1,19 @@
+.ss{
+  color: blue;
+}
+
+
+
+@media (max-width: 768px) {
+  .ss{
+    color: green;
+    padding-top: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ss{
+    color: yellow;
+    padding-top: 10px;
+  }
+}

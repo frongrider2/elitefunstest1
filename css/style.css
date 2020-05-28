@@ -32,19 +32,12 @@ header{
   text-align: center;
   color: #eee;
 }
+
 .carousel-item{
   text-align: center;
   height: 100vh;
-  padding-top: 50%;
+  padding-top: 12%;
 }
-
-@media (max-width: 400px){
-    .carousel-item{
-        padding-top: 50%;
-    }
-}
-
-
 
 h1{
   font-size: 144px;
