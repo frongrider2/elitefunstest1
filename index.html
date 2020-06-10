@@ -9,6 +9,7 @@
   <!-- css+bootstrap -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/swiper.min.css">
 
 
   <!-- icon -->
@@ -179,12 +180,65 @@
   </section>
   <!--  end strategy -->
 
+  <!-- start market section -->
+  <section class="market">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <p class="text_markrt_1">Market</p>
+        <p class="text_markrt_2">All asset allocation<br>ตลาดเเละเเหล่งลงทุนที่เราลงทุน</p>
+      </div>
+      <div class="col-lg-8">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="container market_icon">
+                <img class="img_icon" src="img/set1.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container market_icon">
+                <img class="img_icon"  src="img/fx.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container market_icon">
+                <img class="img_icon" src="img/bit.png" alt="">
+                </div>
+              </div>
+            </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        </div>
+      </div>
 
+    </div>
 
+  </div>
+  </section>
 
-
-
-
+  <script type="text/javascript" src="script/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  <!-- end market section -->
 </body>
 
 
