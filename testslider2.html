@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Demo styles -->
+</head>
+
+<body>
+  <section>
+
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img class="img_icon" src="img/fx.png" alt="">
+        <p>ตลาดซื้อขายอัตราแลกเปลี่ยนเงินตรา</p>
+        <p>Foreign Exchange</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img class="img_icon"  src="img/set2.png" alt="">
+        <p>ตลาดหลักทรัพย์แห่งประเทศไทย</p>
+        <p>The Securities Exchange of Thailand</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img class="img_icon" src="img/bit.png" alt="">
+        <p>ตลาดซื้อขายสกุลเงินดิจิตอล</p>
+        <p>Cryto curency</p>
+      </div>
+
+    </div>
+  </section>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="script/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: -5,
+        depth: 100,
+        modifier: 1,
+        slideShadows : false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+
+</html>
