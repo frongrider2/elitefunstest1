@@ -194,6 +194,10 @@ h1{
   color: #00243C;
 }
 
+.market_con{
+  padding-left: 7%
+}
+
 .text_markrt_1{
   font-size: 50px;
 }
@@ -208,24 +212,105 @@ h1{
 
 .swiper-container {
   width: 100%;
+  height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.swiper-slide {
+.sw_1 {
   background-position: center;
   text-align:center;
   background-size: cover;
-  width: 220px;
+  width: 250px;
   height: 280px;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
   margin:0px 15px;
 }
+
 .img_icon{
   width: 140px;
   padding-top:30px;
 }
 
-
+.market_icon{
+  padding: 0px;
+}
 
 /* end market */
+
+/* Our courses */
+
+.ourcourse{
+  font-family: 'Kanit', sans-serif;
+  color: #00243C;
+  padding: 0% 7%;
+  padding-bottom: 2%;
+}
+
+.text_ourcourse_1{
+  font-size: 50px;
+}
+
+.text_ourcourse_2{
+  font-size: 25px;
+}
+
+.text_ourcourse_3{
+  font-size: 20px;
+  color: #FF9A02;
+  font-weight: bold;
+}
+
+.ourtext_container{
+
+}
+
+.sw_2 {
+  background-position: center;
+  text-align:left;
+  background-size: cover;
+  width: 330px;
+  height: 450px;
+  background-color: #FCF4F1;
+  margin: 0px 50px;
+}
+
+.img_course{
+  width: 330px;
+  height: 330px;
+}
+
+.see_con{
+  margin-top: 10px;
+}
+
+.swiper-container2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.hr_course {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #097290;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* end courses */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end Course */
