@@ -10,6 +10,12 @@ header{
 
 }
 
+.navbar {
+  background-color: black;
+  background-image: none;
+}
+
+
 .nav-menu{
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
   padding: 30px;
@@ -300,17 +306,49 @@ h1{
 
 /* end courses */
 
+/* content */
+
+.content{
+  font-family: 'Kanit', sans-serif;
+  color: #000000;
+  padding: 0% 7%;
+}
+
+.content_text_1{
+  font-size: 50px;
+}
+
+.swiper-container3 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.sw_3 {
+  background-position: center;
+  text-align:left;
+  background-size: cover;
+  width: 330px;
+  height: 420px;
+  background-color: #EAEAEA;
+  margin: 0px 50px;
+  padding: 0px;
+}
+.swiper-pagination3{
+  padding-bottom: 50px;
+}
+
+.img_relate{
+  width: 330px;
+  height: 330px;
+}
+
+.text_relate1{
+  font-size: 17px;
+}
+
+.text_relate1:hover{
+  text-decoration: underline red;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* end Course */
+/* end content */

@@ -37,3 +37,26 @@ var swiper2 = new Swiper('.swiper2', {
   prevEl: '.swiper-button-prev',
 },
 });
+
+var swiper3 = new Swiper('.swiper3', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: false,
+  slidesPerView: 'auto',
+  loop: true,
+  loopFillGroupWithBlank: true,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows : false,
+  },
+  pagination: {
+    el: '.swiper-pagination3',
+  },
+  navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+});
