@@ -439,6 +439,7 @@ h1{
 
 .text_bot2{
   font-size: 18px;
+  padding: 0px;
 }
 
 .con_bot{
@@ -451,7 +452,7 @@ h1{
 }
 
 .adress_con{
-  padding: 0% 12%;
+  padding: 0% 15%;
   text-align: left;
 }
 
